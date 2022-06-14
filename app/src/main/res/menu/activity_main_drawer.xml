@@ -9,14 +9,6 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_brouser"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Brouser" />
@@ -44,5 +36,21 @@
             android:id="@+id/nav_map"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Map" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_notes_main_fragment"
+            android:icon="@android:drawable/stat_notify_more"
+            android:title="Room" />
+        <item
+            android:id="@+id/nav_retrofit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Retrofit" />
     </group>
 </menu>

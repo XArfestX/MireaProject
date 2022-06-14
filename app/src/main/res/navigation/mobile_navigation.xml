@@ -67,4 +67,27 @@
         android:name="ru.mirea.burmakin.mireaproject.Map"
         android:label="Map"
         tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_retrofit"
+        android:name="ru.mirea.burmakin.mireaproject.RetrofitFragment"
+        android:label="Retrofit"
+        tools:layout="@layout/fragment_retrofit" />
+    <fragment
+        android:id="@+id/nav_notes_main_fragment"
+        android:name="ru.mirea.burmakin.mireaproject.Notes_Room.NotesMainFragment"
+        android:label="Room"
+        tools:layout="@layout/fragment_notes_main" >
+        <action
+            android:id="@+id/action_notesMainFragment_to_notesTalkerFragment"
+            app:destination="@id/notesTalkerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesTalkerFragment"
+        android:name="ru.mirea.burmakin.mireaproject.Notes_Room.NotesSecondFragment"
+        android:label="Room"
+        tools:layout="@layout/fragment_notes_second">
+        <action
+            android:id="@+id/action_notesTalkerFragment_to_notesMainFragment"
+            app:destination="@id/nav_notes_main_fragment" />
+    </fragment>
 </navigation>

@@ -11,35 +11,63 @@
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="51dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="132dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="74dp"
-            android:layout_marginTop="39dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="36dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/profile" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
             android:layout_marginTop="88dp"
             android:text="Сохранить"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/age" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:text="Имя профиля"
+            app:layout_constraintBottom_toTopOf="@+id/profile"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:text="Возраст"
+            app:layout_constraintBottom_toTopOf="@+id/age"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/get"
+            android:layout_width="129dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="32dp"
+            android:text="Загрузить"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/save" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
