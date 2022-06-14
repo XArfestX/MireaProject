@@ -81,8 +81,8 @@ public class RetrofitFragment extends Fragment {
         info = v.findViewById(R.id.info);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("https://rawgit.com/startandroid/data/master/messages/")
                 .build();
 
@@ -106,9 +106,7 @@ public class RetrofitFragment extends Fragment {
 
                     @Override
                     public void onNext(List<Message> messages) {
-//                        String str = Integer.toString(messages.size());
-//                        info.setText(str);
-                        info.setText("size = " + messages.size());
+                        info.setText("json file size = " + messages.size());
                     }
                 });
         return v;
