@@ -6,43 +6,43 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_action_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_brouser"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_brouser"
             android:title="Brouser" />
         <item
             android:id="@+id/nav_calculate"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_calculater"
             android:title="Calculater" />
         <item
             android:id="@+id/nav_media"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_media"
             android:title="Media" />
         <item
             android:id="@+id/nav_sensor"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_sensor"
             android:title="Sensor" />
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_camera"
             android:title="Camera" />
         <item
             android:id="@+id/nav_dictaphone"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_dictaphone"
             android:title="Dictaphone" />
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_map"
             android:title="Map" />
         <item
             android:id="@+id/nav_setting"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_settings"
             android:title="Setting" />
         <item
             android:id="@+id/nav_history"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_history"
             android:title="History" />
         <item
             android:id="@+id/nav_notes_main_fragment"
@@ -50,7 +50,7 @@
             android:title="Room" />
         <item
             android:id="@+id/nav_retrofit"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_action_retrofit"
             android:title="Retrofit" />
     </group>
 </menu>

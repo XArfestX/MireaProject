@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/drawable-anydpi/ic_action_create.xml" value="0.241" />
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.241" />
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.241" />
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/drawable/side_nav_bar.xml" value="0.241" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/layout/activity_create_account.xml" value="0.17391304347826086" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/layout/activity_employee.xml" value="0.18819655521783182" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/layout/activity_login.xml" value="0.17391304347826086" />
@@ -28,6 +32,8 @@
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/layout/notes_list.xml" value="0.18568840579710144" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/menu/main.xml" value="0.2578125" />
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.241" />
+        <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.241" />
         <entry key="..\:/Users/Arfes/AndroidStudioProjects/MireaProject2/app/src/main/res/xml/filepaths.xml" value="0.16666666666666666" />
       </map>
     </option>
