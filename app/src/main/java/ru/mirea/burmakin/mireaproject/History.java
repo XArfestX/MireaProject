@@ -238,7 +238,7 @@ public class History extends Fragment {
                     byte[] bytes = new byte[fin.available()];
                     fin.read(bytes);
                     String text = new String (bytes);
-                    String text2 = preferences.getString(STORAGE_NAME, "Название профиля");
+                    String text2 = preferences.getString(STORAGE_NAME, "Артём");
                     HistoryObj historyitem = new HistoryObj(fileEntry.getName().toString(), text2,text);
                     historylist.add(historyitem);
 
