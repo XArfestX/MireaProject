@@ -48,9 +48,9 @@ public class Map extends Fragment {
                         new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                         REQUEST_LOCATION);
             } else {
-//                Task<Location> locationResult = LocationServices
-//                        .getFusedLocationProviderClient(getActivity())
-//                        .getLastLocation();
+                Task<Location> locationResult = LocationServices
+                        .getFusedLocationProviderClient(getActivity())
+                        .getLastLocation();
                 mMap.setMyLocationEnabled(true);
             }
             ///////////
